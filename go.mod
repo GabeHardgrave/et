@@ -1,4 +1,4 @@
-module et
+module github.com/GabeHardgrave/error-tags
 
 go 1.18
 
