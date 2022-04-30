@@ -32,7 +32,7 @@ if et.Tagged(e, FooFailure) {
 ```
 
 Tags are even preserved through wrapped errors.
-```
+```go
 e := errors.Wrap(
   et.Tag(
     errors.New("an untagged error"),
