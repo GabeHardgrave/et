@@ -1,4 +1,4 @@
-module github.com/GabeHardgrave/error-tags
+module github.com/GabeHardgrave/et
 
 go 1.18
 
@@ -12,5 +12,3 @@ require (
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c // indirect
 )
-
-replace github.com/GabeHardgrave/error-tags => github.com/GabeHardgrave/error-tags v0.0.1
